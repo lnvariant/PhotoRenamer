@@ -1,0 +1,69 @@
+.tree-view{
+	-fx-background-color: #494949;
+}
+
+.tree-cell {
+    	-fx-background-color: #494949;
+    	-fx-text-fill: #ffffff;
+}
+
+.tree-cell:hover {
+    	-fx-background-color: #5b5b5b;
+    	-fx-text-fill: #ffffff;
+}
+
+.tree-cell:selected {
+    	-fx-background-color: #4092d0;
+    	-fx-text-fill: #ffffff;
+}
+
+.arrow {
+	-fx-background-color: #ffffff;
+}
+
+.title{
+	-fx-background-color: #353535;
+	-fx-text-fill: #ffffff;
+	/*-fx-border-width: 2;
+	-fx-border-color: #494949;*/
+}
+
+.titled-pane {
+	-fx-text-fill: #ffffff;
+}
+
+.titled-pane > *.content {
+	-fx-background-color: #494949;
+	-fx-border-color: #494949;
+}
+
+
+/**************************************************************************
+*                                                                         *
+* Scroll Bar Properties
+*                                                                         *
+**************************************************************************/
+
+.scroll-bar{
+	-fx-background-color: #494949;
+}
+
+.thumb{
+	-fx-background-color: #5b5b5b;
+}
+
+.track{
+	-fx-background-color: #494949;
+}
+
+.increment-button{
+	-fx-background-color: #494949;
+}
+
+.decrement-button{
+	-fx-background-color: #494949;
+}
+
+.corner{
+	-fx-background-color: #494949;
+}

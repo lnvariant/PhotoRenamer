@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="982.0" style="-fx-background-color: #494949;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Main.StartSceenController">
+   <children>
+      <HBox prefHeight="31.0" prefWidth="901.0" style="-fx-background-color: #303030;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/photo_renamer_icon.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label text="PhotoRenamer" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="5.0" layoutY="142.0" prefHeight="281.0" prefWidth="901.0" spacing="5.0" AnchorPane.bottomAnchor="111.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="142.0">
+         <children>
+            <VBox prefHeight="285.0" prefWidth="147.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="178.0" fitWidth="157.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/fileexplorer_image.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="163.0" text="SELECT" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" prefHeight="94.0" prefWidth="147.0" text="Double click on an image in&#10;the file explorer to select it." textAlignment="JUSTIFY" textFill="WHITE" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="44.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/next.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="20.0" top="70.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox prefHeight="285.0" prefWidth="147.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="178.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/tagselecter_image.PNG" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="163.0" text="ADD" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" prefHeight="94.0" prefWidth="147.0" text="Add the tags you want &#10;to be able to add to your&#10;images. Select the tag to&#10;add it to your image." textAlignment="JUSTIFY" textFill="WHITE" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="44.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/next.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="20.0" top="70.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox prefHeight="285.0" prefWidth="147.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="153.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/tagbar_image.PNG" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" prefHeight="21.0" prefWidth="276.0" text="ATTACH" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_CENTER" prefHeight="77.0" prefWidth="284.0" text="View your image and its attached tags. &#10;Delete the tags by clicking on them. Click &#10;on the white enter icon to rename the&#10;image with the tags." textAlignment="JUSTIFY" textFill="WHITE" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="44.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/next.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="20.0" top="70.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox prefHeight="285.0" prefWidth="147.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="155.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/logmanager_image.PNG" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" prefHeight="21.0" prefWidth="276.0" text="VIEW" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_CENTER" prefHeight="77.0" prefWidth="284.0" text="After renaming the image with the tags, &#10;you can view old names of your image. &#10;Use the menu bar on the top to revert &#10;back to old names." textAlignment="JUSTIFY" textFill="WHITE" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </HBox>
+      <Button id="file_btn" fx:id="btnChooseDir" layoutX="404.0" layoutY="449.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="205.0" stylesheets="@../../resources/buttons.css" AnchorPane.leftAnchor="404.0" AnchorPane.rightAnchor="373.0" />
+      <Label layoutX="273.0" layoutY="74.0" text="Welcome to PhotoRenamer" textFill="WHITE" AnchorPane.topAnchor="74.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

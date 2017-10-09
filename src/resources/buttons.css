@@ -1,0 +1,47 @@
+#browse_btn{
+	-fx-background-image: url('browse_icon.png'); 
+	-fx-background-color: transparent;
+	-fx-background-size: 25px; 
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: 50%;
+}
+
+#add_btn{
+	-fx-background-image: url('add_icon.png'); 
+	-fx-background-color: transparent;
+	-fx-background-size: 25px; 
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: 40%;
+}
+
+#commit_btn{
+	-fx-background-image: url('enter_icon.png'); 
+	-fx-background-color: transparent;
+	-fx-background-size: 25px; 
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: 50%;
+}
+
+#file_btn{
+	-fx-background-image: url('choose_btn_icon_normal.png'); 
+	-fx-background-color: transparent;
+	-fx-background-size: 180px; 
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: 50%;
+}
+
+#file_btn:hover{
+	-fx-background-image: url('choose_btn_icon_hover.png'); 
+	-fx-background-color: transparent;
+	-fx-background-size: 180px; 
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: 50%;
+}
+
+#delete_tag_btn{
+	-fx-background-image: url('trash_icon.png'); 
+	-fx-background-color: transparent;
+	-fx-background-size: 20px; 
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: 50%;
+}

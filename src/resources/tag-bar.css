@@ -1,0 +1,43 @@
+.root{
+	-fx-background-color: #494949;
+}
+
+.scroll-pane{
+   	-fx-background-color: #303030;
+	-fx-control-inner-background: #303030;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: #303030;
+}
+
+
+/**************************************************************************
+*                                                                         *
+* Scroll Bar Properties
+*                                                                         *
+**************************************************************************/
+
+.scroll-bar{
+	-fx-background-color: #494949;
+}
+
+.thumb{
+	-fx-background-color: #303030;
+}
+
+.track{
+	-fx-background-color: #303030;
+}
+
+.increment-button{
+	-fx-background-color: #303030;
+}
+
+.decrement-button{
+	-fx-background-color: #303030;
+}
+
+.corner{
+	-fx-background-color: #303030;
+}

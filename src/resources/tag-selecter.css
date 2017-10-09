@@ -1,0 +1,72 @@
+.root{
+	-fx-background-color: #494949;
+}
+
+.scroll-pane{
+   	-fx-background-color: #494949;
+	-fx-control-inner-background: #353535;
+	
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: #353535;
+}
+
+.text-field{
+	-fx-background-color: #5a5a5a;
+}
+
+.text-input{
+	-fx-text-fill: #ffffff;
+}
+
+.text-input:focused {
+	fx-text-fill: #ffffff;
+}
+
+.title{
+	-fx-background-color: #353535;
+	-fx-text-fill: #ffffff;
+	/*-fx-border-width: 2;
+	-fx-border-color: #494949;*/
+}
+
+.titled-pane {
+	-fx-text-fill: #ffffff;
+}
+
+.titled-pane > *.content {
+	-fx-background-color: #494949;
+	-fx-border-color: #494949;
+}
+
+
+/**************************************************************************
+*                                                                         *
+* Scroll Bar Properties
+*                                                                         *
+**************************************************************************/
+
+.scroll-bar{
+	-fx-background-color: #494949;
+}
+
+.thumb{
+	-fx-background-color: #5b5b5b;
+}
+
+.track{
+	-fx-background-color: #494949;
+}
+
+.increment-button{
+	-fx-background-color: #494949;
+}
+
+.decrement-button{
+	-fx-background-color: #494949;
+}
+
+.corner{
+	-fx-background-color: #494949;
+}

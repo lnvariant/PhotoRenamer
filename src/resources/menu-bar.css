@@ -1,0 +1,18 @@
+.menu-bar{
+	-fx-background-color: #353535;
+	/*-fx-border-width: 2;
+	-fx-border-color: #494949;*/
+}
+
+.menu .label{
+	-fx-text-fill: #ffffff;
+}
+
+.menu .label{
+	-fx-text-fill: #ffffff;
+}
+
+.context-menu .label{
+	-fx-text-fill: #494949;
+}
+
