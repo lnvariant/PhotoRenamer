@@ -103,7 +103,7 @@ public class Image implements Serializable {
 	}
 
 	/**
-	 * Rename files the image file with the attachedTags appended to it.
+	 * Rename the image file with the attachedTags appended to it.
 	 *
 	 */
 	public boolean renameFile(){
@@ -124,6 +124,7 @@ public class Image implements Serializable {
 										  + " "
 										  + addedTags.trim()).trim()
 				                          + ogName.substring(ogName.indexOf('.'))
+
 										  : (ogName.substring(0, ogName.indexOf('.')).trim()
 										  + " "
 										  + addedTags.trim()).trim()
@@ -184,11 +185,12 @@ public class Image implements Serializable {
 	 * file names lists onto this image.
 	 */
 	private void loadSavedImage(){
-		for(String key : allImages.keySet()){
-			if(getName().equals(key)){
-				previousFileNames = allImages.get(key).getPreviousFileNames();
-				attachedTags = allImages.get(key).getAttachedTags();
-			}
+
+		String key = getName();
+
+		if(allImages.containsKey(key)){
+			previousFileNames = allImages.get(key).getPreviousFileNames();
+			attachedTags = allImages.get(key).getAttachedTags();
 		}
 	}
 

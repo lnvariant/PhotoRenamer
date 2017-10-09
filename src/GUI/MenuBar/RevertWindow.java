@@ -19,10 +19,25 @@ import photo_renamer.Image;
  */
 public class RevertWindow {
 
+
+    /* ************************************************************************* *
+     *                                                                           *
+     * Instance Variables                                                        *
+     *                                                                           *
+     * ************************************************************************  */
+
     /** The drop down containing all the previous file names of the selected image */
     private static ChoiceBox<String> previousNamesDropDown;
+
     /** The window containing the revert components */
     private static Stage window;
+
+
+    /* ************************************************************************* *
+     *                                                                           *
+     * Instance Methods                                                          *
+     *                                                                           *
+     * ************************************************************************  */
 
     /**
      * Display the Revert Window with its contents to the user.
@@ -62,18 +77,17 @@ public class RevertWindow {
         Label label = new Label();
         label.setStyle("-fx-text-fill: #ffffff;");
         label.setText(message);
+
         VBox layout = new VBox();
         layout.setStyle("-fx-background-color: #494949;");
         layout.setSpacing(10);
         layout.setPadding(new Insets(10,10,10,10));
-        layout.getChildren().addAll(label,previousNamesDropDown , revertButton);
+        layout.getChildren().addAll(label, previousNamesDropDown, revertButton);
         layout.setAlignment(Pos.CENTER);
 
         Scene alertBox = new Scene(layout);
         window.setScene(alertBox);
         window.show();
-
-
     }
 
     /**

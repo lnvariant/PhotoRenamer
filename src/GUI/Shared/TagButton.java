@@ -89,6 +89,7 @@ public class TagButton extends Button{
         else{
             image = new Image(File.separator + "resources" + File.separator + "tag_remove_icon.png");
         }
+
         btnImage = new ImageView(image);
         btnImage.setClip(new ImageView(image));
 
